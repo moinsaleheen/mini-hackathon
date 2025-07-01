@@ -1,0 +1,274 @@
+.main{
+    height: auto;
+    width: 100%;
+    background-color: gray;
+}
+.header{
+    height: 200px;
+    background-color: #1e0c06;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.logo{
+    position: relative;
+    /* background-color: red; */
+}
+.navbar{
+    /* display: flex; */
+    height: 54px;
+    width: 50%;
+    /* background-color: green; */
+}
+.navbar ul{
+    color: white;
+    height: 24px;
+    display: flex;
+    /* background-color: blue; */
+     list-style: none;
+     gap: 57px;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.ourWorkmain{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.workHeading{
+    margin-left: 250px;
+    font-size: 60px;
+    height: 100px;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.workImage{
+    height: 550px;
+    width: 70%;
+    /* background-color: black; */
+}
+.aeroIcon i{
+    font-size: 50px;
+}
+.advantagesHeading{
+    margin-left: 250px;
+    width: 400px;
+    font-size: 60px;
+}
+.advantagesMain{
+    font-size: 30px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+}
+.advantagesPara{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height:400px;
+    width: 40%;
+    /* background-color: green; */
+}
+.para1{
+    width: 50%;
+    /* background-color: white; */
+}
+.para2{
+    width: 60%;
+    /* background-color: white; */
+}
+.para3{
+    width: 50%;
+    /* background-color: white; */
+    
+}
+.advantagesBTN{
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+}
+.BTN button{
+    border: none;
+    height: 60px;
+    width: 400px;
+    border-radius: 42px;
+    background-color: #728bad;
+    font-weight: 700px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+
+.aboutusMain{
+    display: flex;
+    height: 550px;
+    width: 90%;
+    background-color:#1e0c06;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    gap: 60px;
+}
+.aboutText{
+    align-items: end;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 68%;
+    background-color: #1e0c06;
+    color: white;
+}
+.aboutHeading{
+    margin-top: 50px;
+    width: 70%;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 60px;
+}
+.aboutPara{
+    
+    width: 50%;
+    font-size: 25px;
+}
+.aboutImages{
+height: 500px;
+width: 50%;
+/* background-color: black; */
+}
+.image1{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    height: 150px;
+    width: 70%;
+    /* background-color: white; */
+}
+.image2{
+    /* position: absolute; */
+    height: 240px;
+    width: 100%;
+    /* background-color: white; */
+}
+.image3{
+    justify-content: end;
+    display: flex;
+    height: 150px;
+    width: 50%;
+    /* background-color: white; */
+}
+.aboutImages .image2 img{
+    border: 10px solid black;
+    border-radius: 50px;
+
+}
+.aboutImages .image1 img{
+    top: 10px;
+    position: absolute;
+    border-radius: 40px;
+}
+
+
+
+
+.questionMain{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.questionHeading{
+    font-size: 60px;
+    text-align: center;
+}
+.Questionform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 50%;
+    background-color:black;
+
+}
+input{
+    background-color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    height: 50px;
+    width: 450px;
+}
+textarea{
+    text-align: center;
+    font-size: 20px;
+     margin-top: 20px;
+    border-radius: 40px;
+    height: 200px;
+    width: 450px;
+}
+.questionButton button{
+    margin-top: 20px;
+    margin-right: 300px;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    background-color:  #728bad;
+    color: white;
+    border: none;
+}
+.questionText{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height:500px ;
+    background-color: black;
+    width: 50%;
+    color: white;
+}
+.qpara{
+    width:40%;
+    font-size: 25px;
+}
+.qimage img{
+    transform: rotate(320deg);
+    margin-top: 50px;
+
+}
+.footerMain{
+    height: 200px;
+    width: 100%;
+    background-color: #222021;
+    /* box-shadow: -10px -12px -12px -12px gray; */
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.footerno{
+    
+}
+.footerAdd{
+    width: 260px;
+}
