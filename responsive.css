@@ -1,0 +1,1351 @@
+/* Laptop Screen Responsive */
+@media only screen and (max-width: 1024px){
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 30px 40px;
+}
+.header img {
+    width: 155px;
+    height: 60px;
+}
+.navbar{
+    width: 55%;
+}
+.navbar ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+}
+.headerMain{
+    background-image: url(Assets/bg.png);
+    height: 1080px;
+    background-repeat: no-repeat;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.heromain {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.heromain .heroSection{
+    width: 70%;
+    background-color:#1e0c06;
+    display: flex;
+    border-radius: 30px;
+    padding: 50px 30px 50px 30px;
+}
+.heroSection .heroTextbox{
+    width: 45%;
+    padding-right: 50px;
+}
+.heroTextbox .textHeading {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px
+}
+.heroTextbox p{
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+};
+.heroTextbox button{
+    border-radius: 30px ;
+    background-color: #7891AF;
+    padding: 12px 50px 12px 50px;
+}
+.line {
+    height: 511px;
+    border: 1px solid #F5F5F5;
+}
+.heroSection .images{
+    width: 45%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.images .image1{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+.images .image1 img {
+    width: 150px;
+    height: 140px;
+}
+.images .image2{
+    width: 100%;
+    height: 140px;
+    justify-content: start;
+    display: flex;
+    position: relative;
+    top: 0px;
+}
+.images .image2 img {
+    width: 150px;
+    height: 140px;
+}
+.images .image3{
+    width: 100%;
+    height: 140px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.images .image3 img {
+    width: 150px;
+    height: 140px;
+}
+.Cards{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.cardHeading{
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cardHeading p{
+    width: 50%;
+    margin: 0%;
+}
+.CardsSection{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.CardsSection h2{
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+.card1iconimage ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    color: white;
+    padding: 0%;
+}
+.card1iconimage ul li {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+.card1iconimage ul li I{
+    color: #FFC099;
+}
+.workHeading{
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    height: 100px;
+    padding-bottom: 50px;
+}
+.workHeading p{
+    width: 60%;
+    margin: 0%;
+    text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.carousel {
+  width: 90%;
+  max-width: 1000px;
+}
+.container img {
+    width: 100%;
+}
+.single-item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.advantagesHeading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    color: white;
+    font-size: 60px;
+    padding-top: 70px;
+}
+.advantagesHeading p {
+    width: 60%;
+    text-transform: uppercase;
+}
+.advantagesMain{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.advantagesMain img {
+    width: 440px;
+    height: 400px;
+}
+.advantagesPara{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.para1{
+    width: 80%;
+    color: white;
+    font-size: 30px;
+}
+.para2{
+    width: 80%;
+    color: white;
+    font-size: 30px;
+}
+.para3{
+    width: 80%;
+    color: white;
+    font-size: 30px;
+    
+}
+.advantagesBTN{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.BTN button{
+    padding: 20px 45px 20px 45px;
+    border: none;
+    border-radius: 42px;
+    background-color: #728bad;
+    font-weight: 700px;
+    color: white;
+    font-size: 25px;
+
+}
+.aboutusMain{
+    width: 90%;
+    display: flex;
+    background-color:#1e0c06;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    gap: 60px;
+    padding: 50px 0px 50px 0px;
+}
+.aboutText{
+    width: 68%;
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    flex-direction: column;
+    color: white;
+}
+.aboutHeading{
+    width: 70%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+}
+.aboutPara{
+    width: 70%;
+    font-size: 25px;
+}
+.aboutImages{
+width: 50%;
+}
+.image1{
+    height: 150px;
+    width: 70%;
+    position: relative;
+    left: 80px;
+}
+.image1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    border-radius: 20px;
+}
+.image2{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+.aboutImages .image2 img{
+    height: 220px;
+    width: 220px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+.image3{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+.image3 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+.questionHeading {
+    padding-top: 70px;
+    color: white;
+    width: 85%;
+    font-size: 50px;
+    text-align: end;
+    text-transform: uppercase;
+}
+
+.questionMain {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+
+.Questionform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  border: 1px solid white;
+  background-color: #222021;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 40px;
+  height: 50px;
+  width: 100%;
+  max-width: 450px;
+  padding: 0 20px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+  padding: 15px 20px;
+}
+
+.questionButton {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.questionButton button {
+  border-radius: 30px;
+  height: 40px;
+  width: 120px;
+  background-color: #728bad;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.questionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.qpara {
+  font-size: 22px;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.qimage{
+    width: 430px;
+    height: 224px;
+}
+.qimage img {
+    transform: rotate(320deg);
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: -80px;
+    z-index: 0;
+    position: relative;
+}
+.footerMain {
+  height: 200px;
+  width: 100%;
+  background-color: #222021;
+  display: flex;
+  color: white;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  justify-content: space-around;
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 -8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.footerlogo img {
+  height: 60px;
+}
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+.headerMain {
+    background-image: url(Assets/bg.png);
+    height: 550px;
+    background-repeat: no-repeat;
+}
+.menu-icon {
+    font-size: 30px;
+    display: block;
+    order: 2;
+}
+.navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #222021;
+    display: none;
+    flex-direction: column;
+    order: 3;
+    z-index: 1;
+}
+#menu-toggle:checked ~ .navbar {
+    display: flex;
+}
+.navbar ul {
+    flex-direction: column;
+    font-size: 20px;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+}
+.header {
+    flex-wrap: wrap;
+    padding: 10px 25px 10px 25px;
+    z-index: 1;
+}
+.header img {
+    width: 110px;
+    height: 60px;
+    order: 1
+}
+.heromain {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.heromain .heroSection{
+    width: 70%;
+    background-color:#1e0c06;
+    display: flex;
+    border-radius: 30px;
+    padding: 30px 20px 30px 20px;
+}
+.heroSection .heroTextbox{
+    width: 45%;
+    padding-right: 50px;
+}
+.heroTextbox .textHeading {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.heroTextbox p{
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.heroTextbox button{
+    border-radius: 25px ;
+    background-color: #7891AF;
+    padding: 10px 50px 10px 50px;
+}
+.line {
+    height: 350px;
+    border: 1px solid #F5F5F5;
+}
+.heroSection .images{
+    width: 45%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.images .image1{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-items: end;
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+.images .image1 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 25px;
+}
+.images .image2{
+    width: 100%;
+    height: 110px;
+    justify-content: start;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+.images .image2 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 25px;
+}
+.images .image3{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+}
+.images .image3 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 25px;
+}
+.Cards{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.cardHeading{
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+}
+.cardHeading p{
+    width: 60%;
+    margin: 0%;
+}
+.CardsSection{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.CardsSection h2{
+    width: 90%;
+    text-align: center;
+    color: white;
+}
+.card1iconimage ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+    color: white;
+    padding: 0%;
+}
+.card1iconimage ul li {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+.card1iconimage ul li I{
+    color: #FFC099;
+}
+.workHeading{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.workHeading p{
+    width: 70%;
+    margin: 0%;
+    align-items: start;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.carousel {
+  width: 90%;
+  max-width: 1000px;
+}
+.single-item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.advantagesHeading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.advantagesHeading p {
+    width: 60%;
+    text-transform: uppercase;
+}
+.advantagesMain{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 0px;
+}
+.advantagesMain img {
+    width: 320px;
+    height: 300px;
+    border-radius: 50px;
+}
+.advantagesPara{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.para1{
+    width: 90%;
+    color: white;
+    font-size: 25px;
+}
+.para2{
+    width: 90%;
+    color: white;
+    font-size: 25px;
+}
+.para3{
+    width: 90%;
+    color: white;
+    font-size: 25px;
+}
+.advantagesBTN{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+.BTN button{
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 42px;
+    background-color: #728bad;
+    font-weight: 700px;
+    color: white;
+    font-size: 20px;
+
+}
+.aboutusMain{
+    width: 90%;
+    display: flex;
+    background-color:#1e0c06;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    gap: 40px;
+    padding: 50px 0px 50px 0px;
+}
+.aboutText{
+    width: 68%;
+    display: flex;
+    align-items: end;
+    gap: 50px;
+    flex-direction: column;
+    color: white;
+}
+.aboutHeading{
+    width: 80%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+.aboutPara{
+    width: 80%;
+    font-size: 18px;
+}
+.aboutImages{
+    width: 50%;
+}
+.aboutImages .image1{
+    width: 40%;
+    height: 110px;
+    display: flex;
+    justify-content: start;
+}
+.aboutImages .image1 img {
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    position: relative;
+    right: 0px;
+    left: 0px;
+}
+.image2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    left: 0px;
+}
+.aboutImages .image2 img{
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.image3{
+    width: 50%;
+    height: 110px;
+    display: flex;
+    justify-content: end;
+    display: flex;
+    top: 0px;
+}
+.image3 img {
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+}
+.questionHeading {
+    width: 100%;
+    padding-top: 70px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.questionMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.Questionform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  border: 1px solid white;
+  background-color: #222021;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 40px;
+  height: 50px;
+  width: 100%;
+  max-width: 450px;
+  padding: 0 20px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+  padding: 15px 20px;
+}
+
+.questionButton {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.questionButton button {
+  border-radius: 30px;
+  height: 40px;
+  width: 120px;
+  background-color: #728bad;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.questionText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.qpara {
+  font-size: 18px;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.qimage{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qimage img {
+   transform: rotate(320deg);
+  width: 100%;
+  max-width: 250px;
+  height: 300px;
+  margin-bottom: -80px;
+  z-index: 0;
+  position: relative;
+}
+.footerMain {
+  width: 100%;
+  height: 150px;
+  background-color: #222021;
+  display: flex;
+  color: white;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  justify-content: space-around;
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 -8px 20px rgba(255, 255, 255, 0.2);
+}
+.footerMain .footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerMain .footerlogo img {
+    width: 105px;
+    height: 50px;
+}
+.footerMain .footerno{
+    font-size: 18px;
+}
+.footerMain .footerAdd{
+    font-size: 18px;
+}
+}
+
+/* Mobile Size Small Screen Responsive */
+@media (min-width: 320px) and (max-width: 740px){
+.headerMain {
+    background-image: url(Assets/bg.png);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.menu-icon {
+    font-size: 20px;
+    display: block;
+    order: 2;
+}
+.navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #222021;
+    display: none;
+    flex-direction: column;
+    order: 3;
+    z-index: 1;
+}
+#menu-toggle:checked ~ .navbar {
+    display: flex;
+}
+.navbar ul {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+}
+.header {
+    flex-wrap: wrap;
+    padding: 10px 5px 10px 5px;
+    z-index: 1;
+}
+.header img {
+    width: 60px;
+    height: 30px;
+    order: 1
+}
+.heromain {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.heromain .heroSection{
+    width: 70%;
+    background-color:#1e0c06;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+}
+.heroSection .heroTextbox{
+    width: 45%;
+    padding-right: 5px;
+}
+.heroTextbox .textHeading {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.heroTextbox p{
+    font-size: 8px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.heroTextbox button{
+    border-radius: 8px ;
+    font-size: 8px;
+    background-color: #7891AF;
+    padding: 5px 15px 5px 15px;
+}
+.line {
+    height: 130px;
+    border: 1px solid #F5F5F5;
+}
+.heroSection .images{
+    width: 45%;
+    padding-left: 10px;
+    gap: 5px;
+}
+.images .image1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-items: end;
+}
+.images .image1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.images .image2{
+    width: 100%;
+    height: 40px;
+    justify-content: start;
+    display: flex;
+}
+.images .image2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.images .image3{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+}
+.images .image3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Cards{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.cardHeading{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cardHeading p{
+    width: 70%;
+    margin: 0%;
+}
+.CardsSection{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.CardsSection img {
+    width: 100px;
+    height: 100px;
+}
+.CardsSection h2{
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.card1iconimage ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    color: white;
+    padding: 0%;
+}
+.workHeading{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    height: 80px;
+    padding-bottom: 5px;
+}
+.advantagesHeading{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.advantagesHeading p {
+    width: 60%;
+    text-transform: uppercase;
+}
+.advantagesMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.advantagesMain img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.advantagesPara{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.para1{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+.para2{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+.para3{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    
+}
+.advantagesBTN{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.BTN button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    font-size: 8px;
+
+}
+.aboutusMain{
+    width: 90%;
+    display: flex;
+    background-color:#1e0c06;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    gap: 10px;
+    padding: 20px 0px 20px 0px;
+}
+.aboutText{
+    width: 68%;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.aboutHeading{
+    width: 80%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+}
+.aboutPara{
+    width: 80%;
+    font-size: 8px;
+}
+.aboutImages{
+width: 50%;
+}
+.image1{
+    width: 100% !important;
+    height: 60px !important;
+    display: flex;
+    justify-content: end !important;
+    position: relative;
+    left: 0px;
+}
+.image1 img {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 10px;
+}
+.image2{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+.aboutImages .image2 img{
+    height: 70px;
+    width: 70px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.image3{
+    width: 50%;
+    height: 60px;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+}
+.image3 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+.questionHeading {
+    padding-top: 40px;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.questionMain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Questionform {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  border: 1px solid white;
+  background-color: #222021;
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  max-width: 85%;
+  padding: 0 10px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+  max-width: 85%;
+  padding: 5px 10px;
+}
+
+.questionButton {
+    width: 100%;
+    max-width: 180px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.questionButton button {
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  font-size: 12px;
+  background-color: #728bad;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.questionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.qpara {
+  font-size: 12px;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 0px;
+}
+.qimage{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qimage img {
+    transform: rotate(320deg);
+    width: 120px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: -80px;
+    z-index: 0;
+    position: relative;
+}
+.footerMain {
+  height: 60px;
+  width: 100%;
+  background-color: #222021;
+  display: flex;
+  color: white;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  justify-content: space-around;
+  font-size: 12px;
+  flex-wrap: wrap;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 -8px 20px rgba(255, 255, 255, 0.2);
+}
+.footerlogo{
+    height: 30px !important;
+    width: 45px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerlogo img {
+    height: 30px !important;
+    width: 45px !important;
+}
+.footerMain .footerno{
+    font-size: 8px;
+}
+.footerMain .footerAdd{
+    font-size: 8px;
+}
+}

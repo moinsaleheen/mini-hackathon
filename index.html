@@ -6,6 +6,7 @@
     <title>Bio Cwt</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
     <link
       rel="stylesheet"
       type="text/css"
@@ -21,13 +22,15 @@
     <div class="main">
         <div class="headerMain">
             <div class="header">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">☰</label>
                 <div class="logo"><img src="./Assets/logo.png" alt=""></div>
                 <div class="navbar">
                     <ul>
                         <li><a href="index.html">Gallery</a></li>
                         <li><a href="pricelist.html">Prices for services</a></li>
                         <li><a href="aboutus.html">About us</a></li>
-                        <li><a href="#contactus">Contact</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +55,7 @@
 
 <!-- CardsSection -->
 <div class="Cards">
-    <div class="cardHeading"><p>THE WOOD WE WORK WITH</p></div>
+    <div class="cardHeading"><p class="wood">THE WOOD WE WORK WITH</p></div>
     <div class="CardsSection">
         <div class="card1"><img src="Assets/01.png" alt="">
             <h2>Oak</h2>
@@ -87,7 +90,7 @@
 </div>
 
 <!-- OurWork -->
-<div class="workHeading"><p>Our work</p></div>
+<div class="workHeading"><p class="work">Our work</p></div>
 <div class="container">
     <div class="carousel">
             <div class="single-item">
@@ -99,7 +102,7 @@
 </div>
 
 <!-- Advantages working with us -->
-<div class="advantagesHeading"><p>Advantages working with us</p></div>
+<div class="advantagesHeading"><p class="advantages">Advantages working with us</p></div>
 <div class="advantagesMain">
     <div class="advantagesImage"><img src="Assets/video.png" alt="" height="350px" width="500px"></div>
     <div class="advantagesPara">
@@ -134,7 +137,7 @@
 
 
 <!-- Any Question Section -->
-    <div class="questionHeading" id="contactus">Any questions?</div>
+    <div class="questionHeading">Any questions?</div>
 
     <div class="questionMain">
     <div class="Questionform">
