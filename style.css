@@ -16,7 +16,7 @@ a {
 }
 .main{
     width: 100%;
-    background-color: #222021;
+    background-image: url(Assets/bck_img.png);
 }
 .header{
     display: flex;
@@ -65,9 +65,13 @@ a {
 .heromain .heroSection{
     width: 70%;
     background-color:#1e0c06;
+    box-shadow: 1px 1px 16px 5px white;
     display: flex;
     border-radius: 30px;
     padding: 75px 50px 75px 50px;
+}
+.heromain .heroSection:hover{
+    box-shadow: 5px 5px 20px 5px white;
 }
 .heroSection .heroTextbox{
     width: 45%;
@@ -254,10 +258,14 @@ a {
     width: 90%;
     display: flex;
     background-color:#1e0c06;
+    box-shadow: 1px 1px 16px 5px white;
     border-top-right-radius:50px ;
     border-bottom-right-radius:50px ;
     gap: 60px;
     padding: 50px 0px 50px 0px;
+}
+.aboutusMain:hover{
+    box-shadow: 5px 5px 20px 8px white;
 }
 .aboutText{
     width: 68%;
@@ -354,7 +362,7 @@ body {
 input,
 textarea {
   border: 1px solid white;
-  background-color: #222021;
+  background-color: #000;
   color: white;
   font-size: 18px;
   margin-top: 20px;
@@ -423,7 +431,7 @@ textarea {
 .footerMain {
   height: 150px;
   width: 100%;
-  background-color: #222021;
+  background-color: #000;
   display: flex;
   color: white;
   align-items: center;
